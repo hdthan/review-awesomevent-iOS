@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PopupCellSpeaker" customModule="aEvents" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aac-NX-T4N">
+                    <rect key="frame" x="163" y="2" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="NxP-5R-uBl"/>
+                        <constraint firstAttribute="height" constant="48" id="Q3Z-Cs-ahi"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twO-Vm-1xK">
+                    <rect key="frame" x="2" y="52" width="371" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="aac-NX-T4N" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="N0e-Om-UgF"/>
+                <constraint firstItem="twO-Vm-1xK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="2" id="UCC-lM-piN"/>
+                <constraint firstAttribute="trailing" secondItem="twO-Vm-1xK" secondAttribute="trailing" constant="2" id="VgL-vR-h95"/>
+                <constraint firstItem="twO-Vm-1xK" firstAttribute="top" secondItem="aac-NX-T4N" secondAttribute="bottom" constant="2" id="maW-7f-0A7"/>
+                <constraint firstItem="twO-Vm-1xK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pVc-c9-OEh"/>
+                <constraint firstItem="aac-NX-T4N" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="rNW-Wx-Weu"/>
+            </constraints>
+            <connections>
+                <outlet property="imageSpeaker" destination="aac-NX-T4N" id="SAc-Mu-06t"/>
+                <outlet property="textSpeaker" destination="twO-Vm-1xK" id="aGZ-Fn-V6w"/>
+            </connections>
+            <point key="canvasLocation" x="39.5" y="-65.5"/>
+        </view>
+    </objects>
+</document>

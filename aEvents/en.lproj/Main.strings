@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "AIa-Dn-VgS"; */
+"AIa-Dn-VgS.text" = "Location";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "B53-ZK-yak"; */
+"B53-ZK-yak.text" = "Location";
+
+/* Class = "UILabel"; text = "From"; ObjectID = "DG3-vu-QZD"; */
+"DG3-vu-QZD.text" = "From";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "EDi-vg-Tu6"; */
+"EDi-vg-Tu6.text" = "Title";
+
+/* Class = "UILabel"; text = "To"; ObjectID = "G3l-nb-EhA"; */
+"G3l-nb-EhA.text" = "To";
+
+/* Class = "UIViewController"; title = "Events"; ObjectID = "G95-3X-E5n"; */
+"G95-3X-E5n.title" = "Events";
+
+/* Class = "UINavigationItem"; title = "Events"; ObjectID = "NmG-tY-95V"; */
+"NmG-tY-95V.title" = "Events";
+
+/* Class = "UISegmentedControl"; P8A-fc-WjK.segmentTitles[0] = "First"; ObjectID = "P8A-fc-WjK"; */
+"P8A-fc-WjK.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; P8A-fc-WjK.segmentTitles[1] = "Map"; ObjectID = "P8A-fc-WjK"; */
+"P8A-fc-WjK.segmentTitles[1]" = "Map";
+
+/* Class = "UISegmentedControl"; P8A-fc-WjK.segmentTitles[2] = "Topic"; ObjectID = "P8A-fc-WjK"; */
+"P8A-fc-WjK.segmentTitles[2]" = "Topic";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "dHU-ph-Nwj"; */
+"dHU-ph-Nwj.text" = "Time";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "gvX-j8-xSN"; */
+"gvX-j8-xSN.text" = "Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "w5E-fg-6t9"; */
+"w5E-fg-6t9.text" = "Label";
+
+/* Class = "UISegmentedControl"; y1d-3H-hBA.segmentTitles[0] = "Upcoming"; ObjectID = "y1d-3H-hBA"; */
+"y1d-3H-hBA.segmentTitles[0]" = "Upcoming";
+
+/* Class = "UISegmentedControl"; y1d-3H-hBA.segmentTitles[1] = "Near By"; ObjectID = "y1d-3H-hBA"; */
+"y1d-3H-hBA.segmentTitles[1]" = "Near By";
+
+/* Class = "UISegmentedControl"; y1d-3H-hBA.segmentTitles[2] = "All"; ObjectID = "y1d-3H-hBA"; */
+"y1d-3H-hBA.segmentTitles[2]" = "All";

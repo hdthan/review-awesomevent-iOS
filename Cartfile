@@ -1,0 +1,6 @@
+github "SwiftyJSON/SwiftyJSON"
+github "Alamofire/Alamofire"
+github "onevcat/Kingfisher" ~> 3.0
+github "facebook/facebook-sdk-swift"
+github "dekatotoro/SlideMenuControllerSwift"
+github "Orderella/PopupDialog" ~> 0.5
